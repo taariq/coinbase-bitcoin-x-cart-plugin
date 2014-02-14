@@ -1,0 +1,1 @@
+INSERT INTO xcart_languages SET code='en', name='lbl_coinbase_api_key', value='API key', topic='Labels';

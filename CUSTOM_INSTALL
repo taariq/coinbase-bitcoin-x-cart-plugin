@@ -1,0 +1,10 @@
+TaskID: 536882026_461
+Name  : Bitcoin gateway integration 4.6.1
+URL   : https://secure.qtmsoft.com/customer.php?target=task_info&subject=536882026_461
+
+To apply the changes do the following:
+1. Apply the SQL changes (Open the Patch/Upgrade page in admin area and select the patch.sql from the archive for the "Apply SQL patch" section).
+2. Apply the code and template changes:
+2.1. Either select the patch.diff file for the "Apply patch" section and follow the instructions.
+2.2. Or just copy the new files over the old ones. The catalog tree is preserved in the "files" catalog of the archive.
+2.3. Copy the images from the "files/skin1/images/" directory to the corresponding directory on your server.

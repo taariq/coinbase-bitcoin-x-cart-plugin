@@ -1,0 +1,12 @@
+TaskID: 536882026_461
+Name  : Bitcoin gateway integration 4.6.1
+URL   : https://secure.qtmsoft.com/customer.php?target=task_info&subject=536882026_461
+
+# files changes #########################
+
+[+] payment/ps_coinbase.php
+[+] skin/common_files/payments/ps_coinbase.tpl
+
+# sql changes #########################
+
+INSERT INTO xcart_languages SET code='en', name='lbl_coinbase_api_key', value='API key', topic='Labels';
